@@ -7,7 +7,7 @@ https://adventofcode.com/2021/day/1
 -------------------------------------------------------------
 """
 
-input_file = '/home/masch/Dokumente/Coding/Advent of Code/2021/day2/input.txt'
+input_file = 'day2/input.txt'
 
 
 def position(input_file):
