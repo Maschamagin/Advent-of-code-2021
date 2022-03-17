@@ -73,7 +73,7 @@ def position2(input_file):
     return horizontal_position*depth_position
 
 def main():
-    input_file = '/home/masch/Dokumente/Coding/Advent of Code/2021/day2/input.txt'
+    input_file = '/day2/input.txt'
     return_value = position(input_file)
     print(position(input_file))
     print(position2(input_file))
