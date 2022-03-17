@@ -28,7 +28,7 @@ def position(input_file):
             sum_forward += int(tmp[1])
         elif(tmp[0] == 'down'):
             sum_down += int(tmp[1])
-        elif(tmp[0] == 'up'):
+        else:
             sum_up += int(tmp[1])
 
     horizontal_position = sum_forward
