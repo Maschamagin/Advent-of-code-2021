@@ -47,7 +47,7 @@ def power_consumption(input_file):
 
 
 def main():
-    input_file = '/home/masch/Dokumente/Coding/Advent of Code/2021/day3/input_day3.txt'
+    input_file = 'day3/input_day3.txt'
     print(power_consumption(input_file))
 
 if __name__ == '__main__':
