@@ -41,7 +41,7 @@ def position(input_file):
 
 # -------------------------- Part 2 -------------------------------------
 def position2(input_file):
-    # open file and 
+    # open file and create a list of the entries:
     with open(input_file,'r') as puzzle:
         input_lines = puzzle.readlines()
 
@@ -74,7 +74,6 @@ def position2(input_file):
 
 def main():
     input_file = '/day2/input.txt'
-    return_value = position(input_file)
     print(position(input_file))
     print(position2(input_file))
 
