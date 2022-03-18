@@ -69,8 +69,8 @@ def life_supprt_rating(input_file):
         input_lines = puzzle.read().splitlines()
 
     oxygen_generator_rating = input_lines
-    oxygen_generator_rating_ones = []
     oxygen_generator_rating_zeroes = []
+    oxygen_generator_rating_ones = []
     co2_scrubber_rating = input_lines
     co2_scrubber_rating_zeroes = []
     co2_scrubber_rating_ones = []
