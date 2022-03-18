@@ -16,7 +16,6 @@ def power_consumption(input_file):
     an element of a list and counts appearences of zeroes and ones in each index of every
     entry of that list.
     '''
-    # open file and create a list with lines as elements:
     with open(input_file,'r') as puzzle:
         input_lines = puzzle.readlines()
 
@@ -66,7 +65,6 @@ def life_supprt_rating(input_file):
     the oxygen level, the other one gets deleted.
     For the CO2 level the other way around.
     '''
-    # open file and create a list with lines as elements:
     with open(input_file,'r') as puzzle:
         input_lines = puzzle.read().splitlines()
 
