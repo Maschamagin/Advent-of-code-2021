@@ -49,11 +49,9 @@ def power_consumption(input_file):
     # multiply gamma rate and epsilon rate:
     return (int(gamma_rate, 2) * int(epsilon_rate, 2))
 
-
 #----------------------------------------------------------------------------
 # -------------------------- Part 2 -----------------------------------------
 # ---------------------------------------------------------------------------
-
 
 def life_supprt_rating(input_file):
     # open file and create a list with lines as elements:
@@ -121,9 +119,6 @@ def life_supprt_rating(input_file):
 
     print(oxygen_generator_rating, CO2_scrubber_rating)
     return int(oxygen_generator_rating[0], 2) * int(CO2_scrubber_rating[0], 2)
-
-
-
 
 def main():
     input_file = 'day3/input_day3.txt'
