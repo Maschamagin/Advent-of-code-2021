@@ -145,7 +145,7 @@ def main():
     Prints the sum of all numbers in the winning card that were not hit during previous rounds,
     times the value of the last number drawn during the game.
     '''
-    input_file = '/home/masch/Dokumente/Coding/Advent of Code/2021/day4/input_day4.txt'
+    input_file = 'day4/input_day4.txt'
     arguments = (read_input_file(input_file))
     arguments_lose = (read_input_file(input_file))
     last_number_drawn = 0
